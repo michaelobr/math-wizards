@@ -58,7 +58,7 @@ for x in range(1, num_rounds + 1):
 	if target_number >= p2_result:
 		p2_distance = target_number - p2_result
 	elif target_number <= p2_result:
-		p2_distance = p1_result - target_number
+		p2_distance = p2_result - target_number
 
 	if p1_distance == 0:
 		print("Exact guess, 10x point multiplier.")
